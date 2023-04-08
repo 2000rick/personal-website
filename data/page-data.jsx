@@ -1,65 +1,83 @@
 export const personalData = {
-	name: "Joe Doe",
-	role: "Software Engineer",
+	name: "Qipeng Liang",
+	role: "Software Developer",
 	education: [
-		"Bachelor of Science in Computer Science, University of Oxford(2015-2019)",
-		"Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
+		"Bachelor of Science in Computer Science, University of California, Riverside (2019-2023)",
 	],
 	contactLinks: [
-		"mailto:emailto:time2code@gmail.com",
-		"https://twitter.com/time_tocode",
-		"https://linkedin.com/aliciarodriguezLi",
-		"https://medium.com/@time2code.ali",
+		"mailto:emailto:qliang648@gmail.com",
+		"https://github.com/2000rick",
+		"https://www.linkedin.com/in/qipengliang/",
 	],
 };
 
 export const aboutMe = {
 	title: "About Me",
 	body: [
-		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-		"When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+		"Hello, my name is Qipeng aka Rick. I have recently completed my Bachelor's in Computer Science degree.",
+		"I have a variety of interests in Software Engineering and Computer Science related topics, but I aim to specialize in backend development.\
+		 I aspire to build software systems that improve people's lives. \
+		 But I also enjoy working on fun and challenging projects, like this personal website and some projects listed above.",
+		"Outside of work and professional studies, I enjoy solving the Rubik's cube, watching movies, and playing racing/rhythm games.",
 	],
 };
 
 export const skills = {
 	soft: [
-		{ icon: "👂🏼", text: "Active Listening" },
-		{ icon: "💬", text: "Effective Communication" },
-		{ icon: "👥", text: "Collaboration" },
-		{ icon: "⽓", text: "Teamwork" },
 		{ icon: "💡", text: "Creative Problem Solving" },
-		{ icon: "⌛️", text: "Time management" },
+		{ icon: "💬", text: "Technical Communication" },
+		{ icon: "👥", text: "Mandarin/Cantonese" },
 	],
-	hard: [
+	technical: [
+
+		{ icon: "💻", text: "C++ & C" },
 		{ icon: "💻", text: "Python" },
-		{ icon: "ʦ", text: "TypeScript" },
-		{ icon: "🚀", text: "React" },
+		{ icon: "💻", text: "Java" },
+		{ icon: "💻", text: "Scala" },
+		{ icon: "💻", text: "JavaScript" },
+		{ icon: "💻", text: "Bash Scripts" },
+		{ icon: "🚀", text: "Apache Spark" },
+		{ icon: "💙", text: "Git" },
+		{ icon: "🤍", text: "Github" },
 		{ icon: "💾", text: "SQL" },
 		{ icon: "💾", text: "noSQL" },
-		{ icon: "📈", text: "Data Structures and Algorithms" },
+		{ icon: "🤔", text: "Data Structures and Algorithms" },
+		{ icon: "😤", text: "HTML/CSS" },
 	],
 };
 
 export const professionalData = {
-	title: "Professional Experience",
+	title: "Projects / Experience",
 	experiences: [
 		{
-			role: "Data Scientist, Acme Inc. (2021-Present)",
+			role: "Computer Science Grader, University of California, Riverside. (2022-2023)",
 			description:
-				"Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
-			current: true,
+				"•Grade and provide feedback on student assignments for classes with 100+ students.\n\
+				 •Answer student questions about assignments and/or course materials through weekly office hours (CS141).\n\
+				\n•Grader for Data Structures & Algorithms (CS141, Fall 2022) and Software Engineering (CS180, Winter 2023)",
+			current: false,
 		},
 
 		{
-			role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
+			role: "Sliding Tiles Puzzle Solver (Artificial Intelligence) (2022)",
 			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+				"•Designed and implemented, in C++, an application that solves sliding tile puzzles.\n\
+				•Implemented three search algorithms:\n\
+				- Uniform Cost Search\n\
+				- A* with the Misplaced Tiles Heuristic\n\
+				- A* with the Manhattan Distance Heuristic\n\
+				•Users select which search algorithm to run. They can also enter a custom puzzle of their choice or select a predefined puzzle.",
 			current: false,
 		},
 		{
-			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
+			role: "Movie Search Engine (2021)",
 			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+				"• Co-developed a movie search engine that allows for both broad and specific searches depending on user input.\n\
+				• Collaborated with others to build the project over several sprints following the Scrum framework.\n\
+				• Implemented a search query parser that generates a “Select” method, allowing the program to effectively determine which movies to show.\n\
+				• Implemented 45+ units tests using Google Test to verify that isolated methods work as expected.\n\
+				• Established continuous integration for the project using GitHub Actions.\n\
+				• Ensured the application is free of memory leaks by using Valgrind to check for and fix any problems.",
 			current: false,
 		},
 	],
