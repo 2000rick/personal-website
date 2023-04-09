@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 
-import { Envelope, Twitter, Linkedin } from './icons/'
-import { GoMarkGithub } from "react-icons/go"
+import { Linkedin } from './icons/'
+import { GoMarkGithub, GoMail } from "react-icons/go"
 
 const Sidebar = ({data}) => {
   const {name, role, education, contactLinks} = data;
@@ -25,7 +25,7 @@ const Sidebar = ({data}) => {
                 <h3 className='mb-2'> Contact & Links </h3>
                 <div className='flex flex-row justify-center'>
                     <a className='link-icons' href={contactLinks[0]} aria-label='email-link'>  
-                        <Envelope />
+                        <GoMail />
                     </a>
                     <a className='link-icons' href={contactLinks[1]} aria-label='github-link'>
                         <GoMarkGithub />

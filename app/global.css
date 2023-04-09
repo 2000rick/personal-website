@@ -28,7 +28,7 @@
 }
 
 .link-icons {
-    @apply text-2xl m-2;
+    @apply text-3xl m-2;
 }
 
 section {

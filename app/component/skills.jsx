@@ -6,11 +6,11 @@ const Skills = ({ data }) => {
 
 	const setBg = (active) => (activeTab === active ? "bg-blue" : "bg-grey");
 	const setTabsAlignment = (tab) =>
-		tab === "soft" ? "text-left" : "text-right";
+		tab === "technical" ? "text-left" : "text-right";
 
 	const tabs = (
 		<div className='flex'>
-			{["soft", "technical"].map((element) => (
+			{["technical", "soft"].map((element) => (
 				<button
 					key={element}
 					type='button'

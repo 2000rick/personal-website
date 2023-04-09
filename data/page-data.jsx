@@ -5,7 +5,7 @@ export const personalData = {
 		"Bachelor of Science in Computer Science, University of California, Riverside (2019-2023)",
 	],
 	contactLinks: [
-		"mailto:emailto:qliang648@gmail.com",
+		"mailto:qlian015@ucr.edu",
 		"https://github.com/2000rick",
 		"https://www.linkedin.com/in/qipengliang/",
 	],
@@ -24,8 +24,8 @@ export const aboutMe = {
 
 export const skills = {
 	soft: [
-		{ icon: "💡", text: "Creative Problem Solving" },
 		{ icon: "💬", text: "Technical Communication" },
+		{ icon: "💡", text: "Creative Problem Solving" },
 		{ icon: "👥", text: "Mandarin/Cantonese" },
 	],
 	technical: [
