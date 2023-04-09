@@ -1,8 +1,8 @@
 export const personalData = {
 	name: "Qipeng Liang",
-	role: "Software Developer",
+	role: "Software Engineer",
 	education: [
-		"Bachelor of Science in Computer Science, University of California, Riverside (2019-2023)",
+		"Bachelor of Science in Computer Science, University of California, Riverside (2019 - 2023)",
 	],
 	contactLinks: [
 		"mailto:qlian015@ucr.edu",
@@ -17,7 +17,7 @@ export const aboutMe = {
 		"Hello, my name is Qipeng aka Rick. I have recently completed my Bachelor's in Computer Science degree.",
 		"I have a variety of interests in Software Engineering and Computer Science related topics, but I aim to specialize in backend development.\
 		 I aspire to build software systems that improve people's lives. \
-		 But I also enjoy working on fun and challenging projects, like this personal website and some projects listed above.",
+		 But I also enjoy working on fun and/or challenging projects, like this personal website and some projects listed above.",
 		"Outside of work and professional studies, I enjoy solving the Rubik's cube, watching movies, and playing racing/rhythm games.",
 	],
 };
@@ -40,7 +40,7 @@ export const skills = {
 		{ icon: "💙", text: "Git" },
 		{ icon: "🤍", text: "Github" },
 		{ icon: "💾", text: "SQL" },
-		{ icon: "💾", text: "noSQL" },
+		{ icon: "💾", text: "NoSQL" },
 		{ icon: "🤔", text: "Data Structures and Algorithms" },
 		{ icon: "😤", text: "HTML/CSS" },
 	],
@@ -50,7 +50,8 @@ export const professionalData = {
 	title: "Projects / Experience",
 	experiences: [
 		{
-			role: "Computer Science Grader, University of California, Riverside. (2022-2023)",
+			link: "https://www1.cs.ucr.edu/",
+			role: "Computer Science Grader, University of California, Riverside. (2022 - 2023)",
 			description:
 				"•Grade and provide feedback on student assignments for classes with 100+ students.\n\
 				 •Answer student questions about assignments and/or course materials through weekly office hours (CS141).\n\
@@ -59,6 +60,7 @@ export const professionalData = {
 		},
 
 		{
+			link: "https://github.com/2000rick/CS170_EightPuzzle",
 			role: "Sliding Tiles Puzzle Solver (Artificial Intelligence) (2022)",
 			description:
 				"•Designed and implemented, in C++, an application that solves sliding tile puzzles.\n\
@@ -69,7 +71,21 @@ export const professionalData = {
 				•Users select which search algorithm to run. They can also enter a custom puzzle of their choice or select a predefined puzzle.",
 			current: false,
 		},
+
 		{
+			link: "https://github.com/2000rick/FeatureSelection",
+			role: "Feature Selection (AI/ML) (2022)",
+			description:
+				"•Designed and implemented, in both Python and C++, a feature selection application (The C++ implementation is about 200x faster!).\n\
+				•Given a dataset, this application finds the \"best\" subset of features that maximizes the accuracy of a classifier.\n\
+				•Implemented two greedy search algorithms: Forward Selection and Backward Elimination\n\
+				•The classifier used is Nearest Neighbor, and the evaluation function used is n-fold cross validation.\n\
+				•Running the forward selection algorithm with a sample dataset, the classifier accuracy is 97.4%.",
+			current: false,
+		},
+
+		{
+			link: "https://github.com/2000rick/movie-search-engine",
 			role: "Movie Search Engine (2021)",
 			description:
 				"• Co-developed a movie search engine that allows for both broad and specific searches depending on user input.\n\

@@ -24,13 +24,13 @@ const Sidebar = ({data}) => {
             <div className='text-white text-center mb-4 mt-4 sm:mt-8'>
                 <h3 className='mb-2'> Contact & Links </h3>
                 <div className='flex flex-row justify-center'>
-                    <a className='link-icons' href={contactLinks[0]} aria-label='email-link'>  
+                    <a className='link-icons' href={contactLinks[0]} target='_blank' aria-label='email-link'>  
                         <GoMail />
                     </a>
-                    <a className='link-icons' href={contactLinks[1]} aria-label='github-link'>
+                    <a className='link-icons' href={contactLinks[1]} target='_blank' aria-label='github-link'>
                         <GoMarkGithub />
                     </a>
-                    <a className='link-icons' href={contactLinks[2]} aria-label='linkedin-link'>
+                    <a className='link-icons' href={contactLinks[2]} target='_blank' aria-label='linkedin-link'>
                         <Linkedin />
                     </a>
                 </div>
