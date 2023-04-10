@@ -28,7 +28,7 @@
 }
 
 .link-icons {
-    @apply text-3xl m-2;
+    @apply text-3xl m-2 hover:scale-110 ease-in duration-200;
 }
 
 section {

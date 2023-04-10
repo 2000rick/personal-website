@@ -11,7 +11,7 @@ const Experience = ({data}) => {
                     <span className={`h-2 ${current ? "bg-blue" : "bg-grey"}`} />
                     <div className='bg-grey-light p-6 drop-shadow-md'>
                         <a href={link} target='_blank'>
-                            <h3> {role} </h3>
+                            <h3 className="hover:text-blue"> {role} </h3>
                         </a>
                         {
                             description.split("\n").map((element, i) =>
