@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Experience = ({data}) => {
+const Projects = ({data}) => {
   const {title, experiences} = data;
   return (
     <section>
@@ -26,4 +26,4 @@ const Experience = ({data}) => {
   );
 };
 
-export default Experience
+export default Projects

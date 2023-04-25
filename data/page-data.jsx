@@ -47,7 +47,7 @@ export const skills = {
 };
 
 export const professionalData = {
-	title: "Projects / Experience",
+	title: "Experience",
 	experiences: [
 		{
 			link: "https://www1.cs.ucr.edu/",
@@ -58,7 +58,22 @@ export const professionalData = {
 				\n•Grader for Data Structures & Algorithms (CS141, Fall 2022) and Software Engineering (CS180, Winter 2023)",
 			current: false,
 		},
+	],
+};
 
+export const projectData = {
+	title: "Projects",
+	experiences: [
+		{
+			link: "https://github.com/2000rick/personal-website",
+			role: "Personal Website (Present)",
+			description:
+				"•This website you are currently viewing.\n\
+				•Built using Next.JS and Tailwind CSS.\n\
+				•Webpage is optimized for viewing on both desktop and mobile devices.",
+			current: true,
+		},
+		
 		{
 			link: "https://github.com/2000rick/CS170_EightPuzzle",
 			role: "Sliding Tiles Puzzle Solver (Artificial Intelligence) (2022)",
