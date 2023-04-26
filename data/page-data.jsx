@@ -79,6 +79,7 @@ export const projectData = {
 			role: "Sliding Tiles Puzzle Solver (Artificial Intelligence) (2022)",
 			description:
 				"•Designed and implemented, in C++, an application that solves sliding tile puzzles.\n\
+				•Given any 8-puzzle, this program outputs an optimal solution or \"Failure\" in under 2 seconds (on an AMD Ryzen 7 5800H with DDR4 3200MT/s RAM).\n\
 				•Implemented three search algorithms:\n\
 				- Uniform Cost Search\n\
 				- A* with the Misplaced Tiles Heuristic\n\
